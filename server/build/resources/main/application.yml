@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: capstone-server
+  datasource:
+    url: jdbc:mysql://localhost:3306/FreshBox?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+logging:
+  level:
+    com.example.server: DEBUG
+    org.springframework.web: INFO
+server:
+  port: 8080

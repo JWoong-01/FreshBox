@@ -56,8 +56,6 @@ dependencies {
     implementation("com.google.mlkit:barcode-scanning:17.3.0")
     // ML Kit 의존성 (영수증 스캔)
     implementation ("com.google.mlkit:text-recognition:16.0.0")
-    //AppCompatActivity 의존
-    implementation ("androidx.appcompat:appcompat:1.7.0")
     // Retrofit 의존성 (API 호출)
     implementation("com.squareup.retrofit2:retrofit:2.11.0")
     implementation("com.squareup.retrofit2:converter-gson:2.11.0")
@@ -70,13 +68,11 @@ dependencies {
     implementation ("androidx.camera:camera-camera2:1.4.1")
     implementation ("androidx.camera:camera-lifecycle:1.4.1")
     implementation ("androidx.camera:camera-view:1.4.1")
-    implementation ("com.google.mlkit:barcode-scanning:17.3.0")
 
     // 이미지 크롭 라이브러리
     implementation("com.github.CanHub:Android-Image-Cropper:4.3.2")
 
     // 레시피api  추가
-    implementation ("com.android.volley:volley:1.2.1")
     implementation ("com.google.code.gson:gson:2.10.1")
 
 
